@@ -1,9 +1,19 @@
 # 💸 App de Finanças Pessoais do Moises com Vibe Coding
 
+## Sobre o Projeto
 
-PRD refinado no Copilot we:
+Este projeto foi desenvolvido como exercício prático de Vibe Coding utilizando Microsoft Copilot e Lovable.
 
-```markdown
+O objetivo foi explorar como a IA Generativa pode auxiliar na criação de produtos digitais, desde a definição dos requisitos até a geração de um MVP funcional a partir de um PRD (Product Requirements Document) detalhado.
+
+---
+
+# 1. Prompt Final (PRD)
+
+O PRD abaixo foi refinado utilizando o Copilot Web e serviu como base para a geração da aplicação.
+
+```mardown
+# LOVABLE BUILD SPEC
 ## Assistente Conversacional de Finanças Pessoais
 
 ### Objetivo
@@ -35,6 +45,7 @@ Sistema:
 # PROPOSTA DE VALOR
 
 Controle seu dinheiro conversando.
+
 O sistema transforma mensagens em registros financeiros organizados, gera insights e ajuda o usuário a desenvolver hábitos financeiros saudáveis.
 
 ---
@@ -476,36 +487,59 @@ Não implementar:
 Entregar um MVP funcional, responsivo, acessível e intuitivo, permitindo que qualquer pessoa organize suas finanças pessoais conversando em linguagem natural com um Assistente Financeiro Inteligente.
 ```
 
+# 2. Interação com a IA
 
-### Iterações com o lovale:
-   -> Crie um App de Organização de Finanças Pessoais com base no seguinte PRD (Product Requirements Document): {PRD}
-   
-Resultado final no Lovable:  https://visual-detail-dreamworks.lovable.app/
+Após o refinamento do PRD, foi realizada a seguinte solicitação ao Lovable:
 
+```text
+Crie um App de Organização de Finanças Pessoais com base no seguinte PRD (Product Requirements Document): {PRD}
+```
 
+## Resultado da Geração
 
-###  Telas da aplicação
+Aplicação gerada:
 
-- <img width="889" height="901" alt="tela_Conversa_Chat" src="https://github.com/user-attachments/assets/b2e47fc7-5e7d-421c-862f-c8aaeb1fa870" />
-<img width="923" height="894" alt="tela_metas" src="https://github.com/user-attachments/assets/33634317-8c5b-48d9-b53a-1ab28fa58f30" />
-<img width="987" height="913" alt="tela_pinel" src="https://github.com/user-attachments/assets/b9f543b7-368e-496a-984a-80f300c65e18" />
-<img width="902" height="889" alt="tela_Perfil" src="https://github.com/user-attachments/assets/39c245c3-2a5f-4b0c-bcdf-85d8449b6fe9" />
+https://visual-detail-dreamworks.lovable.app/
 
+---
 
+# 3. Evidências do Processo
 
-# Broto
+## Tela de Conversa
+
+![Tela Conversa](https://github.com/user-attachments/assets/b2e47fc7-5e7d-421c-862f-c8aaeb1fa870)
+
+---
+
+## Tela de Metas
+
+![Tela Metas](https://github.com/user-attachments/assets/33634317-8c5b-48d9-b53a-1ab28fa58f30)
+
+---
+
+## Tela de Painel
+
+![Tela Painel](https://github.com/user-attachments/assets/b9f543b7-368e-496a-984a-80f300c65e18)
+
+---
+
+## Tela de Perfil
+
+![Tela Perfil](https://github.com/user-attachments/assets/39c245c3-2a5f-4b0c-bcdf-85d8449b6fe9)
+
+---
+
+# 4. Resumo da Aplicação
+
+## Broto
 
 Broto é um assistente de finanças pessoais baseado em Inteligência Artificial que ajuda usuários a organizar receitas, despesas e metas financeiras por meio de uma experiência simples, acessível e orientada por conversas.
 
 O objetivo do projeto é reduzir a complexidade normalmente associada ao controle financeiro, substituindo planilhas e formulários por uma experiência mais natural e intuitiva.
 
----
-
-## Proposta de Valor
+### Proposta de Valor
 
 **Controle seu dinheiro conversando.**
-
-O Broto transforma mensagens em registros financeiros organizados, gera insights personalizados e ajuda o usuário a desenvolver hábitos financeiros saudáveis.
 
 Exemplo:
 
@@ -519,22 +553,16 @@ Exemplo:
 
 ### Dashboard Financeiro
 
-O painel principal oferece uma visão consolidada da situação financeira do usuário.
-
-Indicadores disponíveis:
-
 - Saldo atual
 - Receitas do mês
 - Despesas do mês
 - Economia do mês
 
-Essas informações permitem compreender rapidamente o estado financeiro sem a necessidade de relatórios complexos.
-
----
-
 ### Análise de Gastos por Categoria
 
-O sistema organiza e apresenta os gastos por categoria, permitindo identificar facilmente onde o dinheiro está sendo utilizado.
+- Gráfico de distribuição dos gastos
+- Valores detalhados por categoria
+- Identificação das categorias com maior impacto no orçamento
 
 Categorias atuais:
 
@@ -543,74 +571,29 @@ Categorias atuais:
 - Alimentação
 - Lazer
 
-Recursos:
-
-- Gráfico de distribuição dos gastos
-- Valores detalhados por categoria
-- Identificação das categorias com maior impacto no orçamento
-
----
-
 ### Evolução Financeira Mensal
 
-Visualização da evolução de receitas e despesas ao longo do tempo.
-
-Benefícios:
-
-- Acompanhar tendências financeiras
-- Comparar receitas e gastos
-- Identificar desequilíbrios no orçamento
-
----
+- Comparação entre receitas e despesas
+- Acompanhamento da evolução financeira ao longo do tempo
 
 ### Gestão de Metas Financeiras
 
-Permite criar e acompanhar objetivos financeiros.
-
-Exemplos:
-
-- Reserva de emergência
-- Viagem
-- Compra de notebook
-- Aquisição de veículo
-
-Para cada meta é possível visualizar:
-
-- Valor objetivo
-- Valor acumulado
-- Percentual de progresso
-
----
+- Definição de objetivos financeiros
+- Controle do valor acumulado
+- Acompanhamento percentual do progresso
 
 ### Monitoramento dos Maiores Gastos
-
-Lista automaticamente as despesas mais relevantes do período.
-
-Informações exibidas:
 
 - Descrição do gasto
 - Categoria
 - Data
 - Valor
 
-Essa funcionalidade ajuda a identificar rapidamente quais despesas possuem maior impacto no orçamento.
-
----
-
 ### Assistente Financeiro Inteligente
 
-O Broto analisa os dados financeiros do usuário e gera recomendações personalizadas.
-
-Exemplos de insights:
-
-- Categoria com maior volume de gastos
+- Recomendações automáticas
 - Sugestões de economia
-- Recomendações para atingir metas financeiras
-- Alertas sobre padrões de consumo
-
-Objetivo:
-
-Transformar dados financeiros em orientações práticas e fáceis de entender.
+- Identificação de padrões de gastos
 
 ---
 
@@ -618,47 +601,42 @@ Transformar dados financeiros em orientações práticas e fáceis de entender.
 
 ### Conversa
 
-Ambiente de interação com o assistente financeiro.
-
-Funcionalidades previstas:
+Permite:
 
 - Registrar receitas
 - Registrar despesas
 - Consultar informações financeiras
 - Receber orientações personalizadas
 
----
-
 ### Painel
 
-Dashboard financeiro com indicadores, gráficos, metas e insights.
+Apresenta:
 
----
+- Indicadores financeiros
+- Gráficos
+- Metas
+- Insights
 
 ### Metas
 
-Gerenciamento completo dos objetivos financeiros.
-
-Funcionalidades:
+Permite:
 
 - Criar metas
 - Editar metas
 - Acompanhar progresso
-- Visualizar evolução
-
----
 
 ### Perfil
 
-Área destinada às configurações da conta e preferências do usuário.
+Permite gerenciar:
+
+- Preferências do usuário
+- Configurações da conta
 
 ---
 
 ## Funcionalidades Planejadas
 
-### Registro de Transações por Linguagem Natural
-
-O usuário poderá registrar movimentações através de mensagens simples.
+### Registro por Linguagem Natural
 
 Exemplos:
 
@@ -676,22 +654,16 @@ O sistema deverá identificar automaticamente:
 - Categoria
 - Descrição
 
----
+### Consulta Conversacional
 
-### Consulta Financeira Conversacional
-
-O usuário poderá realizar perguntas como:
+Exemplos:
 
 ```text
 Quanto gastei este mês?
 Qual minha maior categoria de gastos?
-Quanto falta para minha meta?
 Qual meu saldo atual?
+Quanto falta para minha meta?
 ```
-
-E receber respostas em linguagem natural.
-
----
 
 ### Classificação Automática
 
@@ -714,13 +686,11 @@ Princípios adotados:
 - Interface limpa
 - Navegação intuitiva
 - Alto contraste visual
-- Design mobile-first
+- Mobile First
 - Compatibilidade com leitores de tela
 - Feedback claro para o usuário
 - Tolerância a erros
 - Baixa curva de aprendizado
-
-O objetivo é permitir que qualquer pessoa consiga utilizar o aplicativo sem treinamento prévio.
 
 ---
 
@@ -752,17 +722,34 @@ O objetivo é permitir que qualquer pessoa consiga utilizar o aplicativo sem tre
 
 Construir um assistente financeiro inteligente, acessível e centrado no usuário, capaz de ajudar pessoas a desenvolver uma relação mais saudável com suas finanças através de conversas naturais, visualizações simples e recomendações personalizadas.
 
+---
 
-### Reflexão:
+# 5. Reflexão Sobre o Processo
 
-### O que funcionou bem?  
-   O refinamento do PRD previamente, ajudou muito pois os creditos do lovable acabaram já na primeira interação.
+## O que funcionou bem?
 
-### O que não funcionou como o esperado?
-   Esperava poder  interagir mais vezes gratuitamente com o lovable. Mas em uma unica interação já fopi de grande valia para aprender sobre Vibe Coding e conseguir gerar meu APP.
-   Depois de fazer a a solicitação junto com o PRD, para criação do APP.  não foi mais possivel, pois  ele informava que não tinha mais credito, mensagem "Seu trabalho está pausado porque você está sem créditos. 5 créditos gratuitos chegam em 13 horas."
+O refinamento prévio do PRD ajudou significativamente na qualidade da aplicação gerada pelo Lovable.
 
- ### O que aprendeu sobre conversar com IAs?
-   Aprendi que quanto mais detalhes e clarezas na conversa com IA.  Melhor será o resuçtado retonado.
-   
+Mesmo com apenas uma interação foi possível gerar um MVP funcional bastante próximo da visão inicial do produto.
 
+---
+
+## O que não funcionou como esperado?
+
+A expectativa era realizar mais interações gratuitas dentro do Lovable.
+
+Após a primeira geração da aplicação, os créditos gratuitos foram consumidos e a plataforma passou a exibir a mensagem:
+
+> "Seu trabalho está pausado porque você está sem créditos. 5 créditos gratuitos chegam em 13 horas."
+
+Apesar dessa limitação, a experiência foi suficiente para compreender melhor o fluxo de desenvolvimento assistido por IA.
+
+---
+
+## O que aprendi sobre conversar com IAs?
+
+A principal lição foi que a qualidade do resultado está diretamente relacionada à qualidade do contexto fornecido.
+
+Quanto mais detalhes, exemplos, restrições e clareza estiverem presentes na solicitação, maior tende a ser a aderência da resposta ao resultado esperado.
+
+> Quanto melhor o prompt, melhor a resposta da IA.
