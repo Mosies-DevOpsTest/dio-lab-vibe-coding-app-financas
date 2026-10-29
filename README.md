@@ -13,7 +13,7 @@ O objetivo foi explorar como a IA Generativa pode auxiliar na criação de produ
 O PRD abaixo foi refinado utilizando o Copilot Web e serviu como base para a geração da aplicação.
 
 ```mardown
-# LOVABLE BUILD SPEC
+
 ## Assistente Conversacional de Finanças Pessoais
 
 ### Objetivo
