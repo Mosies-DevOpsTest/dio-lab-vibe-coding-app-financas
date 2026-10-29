@@ -2,7 +2,7 @@
 
 ## Sobre o Projeto
 
-Este projeto foi desenvolvido como exercício prático de Vibe Coding utilizando Microsoft Copilot e Lovable.
+Este projeto foi desenvolvido como Desafio da DIO sobre Vibe Coding utilizando Microsoft Copilot e Lovable.
 
 O objetivo foi explorar como a IA Generativa pode auxiliar na criação de produtos digitais, desde a definição dos requisitos até a geração de um MVP funcional a partir de um PRD (Product Requirements Document) detalhado.
 
